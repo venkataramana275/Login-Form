@@ -1,0 +1,115 @@
+.login-wrapper{
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     display: flex;
+}
+
+.login-box {
+  background-color: whitesmoke;
+  padding: 50px 30px;
+  border: 3px solid rgb(57, 163, 221);
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.colorful-heading {
+   margin-bottom: 100px;
+   text-align: center;
+   margin-right: 10px;
+}
+.colorful-heading .G {
+      color: orange;
+      font-size: 2rem;
+}
+.colorful-heading .o1 {
+   color: black;
+}
+.colorful-heading .o2 {
+   color: rgb(57, 163, 221) ;
+   font-size: 1.5rem;
+}
+.login-box label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.login-box input {
+    width: 95%;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-box input:focus {
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 123, 225, 0.6);
+}
+
+.show-password {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 2px;
+  justify-content: flex-start;
+  width: 100px;
+  flex-wrap: nowrap;
+}
+
+.show-password input[type="checkbox"] {
+  font-size: 16px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 20px;
+} 
+.show-password label {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 16px;
+  white-space: nowrap;
+  margin-bottom: 16px;
+}
+
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(57, 163, 221);
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid black;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-box button:hover {
+  background-color: lightseagreen;
+  transform: translate(-2px);
+}
+
+@media (max-width: 480px) {
+  .login-box {
+    padding: 20px;
+    width: 80%;
+  }
+  .login-box h2 {
+    font-size: 22px;
+  }
+  
+  
+    .login-box button {
+      width: 100%;
+  }
+}
